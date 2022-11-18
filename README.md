@@ -23,21 +23,21 @@ Link : <span><a href="https://assets.cdn.sap.com/sapcom/docs/2019/09/c86f9218-68
 ## 1. Sign-up at SAP Universal ID for downloading **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04**
 Link : <span><a href="https://account.sap.com/core/login-native"><u>SAP Universal ID register page</u></a></span>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/1_SAP_Register.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/1_SAP_Register.png>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/2_SAP_Register.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/2_SAP_Register.png>
 
 * Sign up for download (We'll skip specific sign-up step at this repository)
 
 ### 1.1 Download **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04** install files
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/3_SAP_NW_download.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/3_SAP_NW_download.png>
 
 * Download above files all and extract rar file
 
 I've extracted install file at 'install' directory like below.
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/4_extract.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/4_extract.png>
 
 For us, The first difficulty things that downloading install file and license procedures for SAP installation are all finished.
 
@@ -47,9 +47,9 @@ For us, The first difficulty things that downloading install file and license pr
 
 Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/14_0"><u>Vmwarew Workstation Player 14.0</u></a></span>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/5_vmware_download.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/5_vmware_download.png>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/img/6_vmware_download.png>
+<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/6_vmware_download.png>
 
 > Download OpenSuSE leap(linux OS) ver 15.2
 
