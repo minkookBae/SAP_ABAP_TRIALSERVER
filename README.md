@@ -5,7 +5,7 @@
 
 Link : <span><a href="https://assets.cdn.sap.com/sapcom/docs/2019/09/c86f9218-687d-0010-87a3-c30de2ffd8ff.pdf"><u>Customer Guide</u></a></span>
 
-## 0. Prerequisite (Hardware, OS criteria) - By Customer Guide and readme file
+## Prerequisite (Hardware, OS criteria) - By Customer Guide and readme file
 
 > Customer Guide
 * x86_64 Processor based hardware
@@ -20,42 +20,52 @@ Link : <span><a href="https://assets.cdn.sap.com/sapcom/docs/2019/09/c86f9218-68
 * About 100 GB free disk space for server installation
 * About 2 GB free disk space for client installation
 
-## 1. Sign-up at SAP Universal ID for downloading **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04**
+You can refer this [README] file.
+
+## Preparation
+
+### 1. Sign-up at SAP Universal ID for downloading **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04**
 Link : <span><a href="https://account.sap.com/core/login-native"><u>SAP Universal ID register page</u></a></span>
 
-![][Image1]
-![][Image2]
+![Image1]
+![Image2]
 
 * Sign up for download (We'll skip specific sign-up step at this repository)
 
-### 1.1 Download **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04** install files
+### 2. Download **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04** install files and Extract them
 
-![][Image3]
+![Image3]
 
 * Download above files all and extract rar file
 
 I've extracted install file at 'install' directory like below.
-![][Image4]
+![Image4]
 
 For us, The first difficulty things that downloading install file and license procedures for SAP installation are all finished.
 
-## 2. Download VMware Workstation Player and OpenSUSE leap(linux OS)
+### 3. Download VMware Workstation Player and OpenSUSE leap(linux OS) and other utility programs(winSCP)
 
 > Download VMware Workstation Player, version 14.0 for your operating system
 
 Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/14_0"><u>Vmwarew Workstation Player 14.0</u></a></span>
 
-![][Image5]
-![][Image6]
+![Image5]
+![Image6]
 
 > Download OpenSuSE leap(linux OS) ver 15.2
 
 Link : <span><a href="https://get.opensuse.org/leap/15.2/"><u>openSUSE Leap 15.2</u></a></span>
 
-![][Image7]
+![Image7]
 
 * When I try to install through 15.4 version, it doesn't go smoothly, so I'm making this guide based on 15.2 version.
 
+> Download WinSCP
+
+Link : <span><a href="https://winscp.net/eng/download.php"><u>https://winscp.net/eng/download.php</u></a></span>
+![Image8]
+
+It is a convenient utility program for copying the ABAP installation files from local PC to the VM linux system.
 
 [Image1]: /img/1_SAP_Register.png
 [Image2]: /img/2_SAP_Register.png
@@ -64,3 +74,5 @@ Link : <span><a href="https://get.opensuse.org/leap/15.2/"><u>openSUSE Leap 15.2
 [Image5]: /img/5_vmware_download.png
 [Image6]: /img/6_vmware_download.png
 [Image7]: /img/7_openSUSE_download.png
+[Image8]: /img/8_winscp_download.png
+[README]: /assets/readme.html
