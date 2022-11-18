@@ -23,21 +23,19 @@ Link : <span><a href="https://assets.cdn.sap.com/sapcom/docs/2019/09/c86f9218-68
 ## 1. Sign-up at SAP Universal ID for downloading **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04**
 Link : <span><a href="https://account.sap.com/core/login-native"><u>SAP Universal ID register page</u></a></span>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/1_SAP_Register.png>
-
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/2_SAP_Register.png>
+![][Image1]
+![][Image2]
 
 * Sign up for download (We'll skip specific sign-up step at this repository)
 
 ### 1.1 Download **SAP NetWeaver AS ABAP Developer Edition 7.52 SP04** install files
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/3_SAP_NW_download.png>
+![][Image3]
 
 * Download above files all and extract rar file
 
 I've extracted install file at 'install' directory like below.
-
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/4_extract.png>
+![][Image4]
 
 For us, The first difficulty things that downloading install file and license procedures for SAP installation are all finished.
 
@@ -47,12 +45,22 @@ For us, The first difficulty things that downloading install file and license pr
 
 Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/14_0"><u>Vmwarew Workstation Player 14.0</u></a></span>
 
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/5_vmware_download.png>
-
-<img src="https://github.com/minkookBae/SAP_ABAP_TRIALSERVER/blob/main/img/6_vmware_download.png>
+![][Image5]
+![][Image6]
 
 > Download OpenSuSE leap(linux OS) ver 15.2
 
 Link : <span><a href="https://get.opensuse.org/leap/15.2/"><u>openSUSE Leap 15.2</u></a></span>
 
+![][Image7]
+
 * When I try to install through 15.4 version, it doesn't go smoothly, so I'm making this guide based on 15.2 version.
+
+
+[Image1]: /img/1_SAP_Register.png
+[Image2]: /img/2_SAP_Register.png
+[Image3]: /img/3_SAP_NW_download.png
+[Image4]: /img/4_extract.png
+[Image5]: /img/5_vmware_download.png
+[Image6]: /img/6_vmware_download.png
+[Image7]: /img/7_openSUSE_download.png
