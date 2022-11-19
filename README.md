@@ -59,6 +59,10 @@ Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/
 
 Link : <span><a href="https://get.opensuse.org/leap/15.2/"><u>openSUSE Leap 15.2</u></a></span>
 
+Download Link : <a href="http://download.opensuse.org/distribution/leap/15.2/iso/"><u>openSUSE Leap 15.2 Download Page</u></a>
+
+> File name : openSUSE-Leap-15.2-DVD-x86_64.iso
+
 ![Image7]
 
 * When I try to install through 15.4 version, it doesn't go smoothly, so I'm making this guide based on 15.2 version.
