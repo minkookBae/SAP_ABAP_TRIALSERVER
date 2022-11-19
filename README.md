@@ -45,17 +45,17 @@ For us, The first difficulty things that downloading install files and license p
 
 > Download VMware Workstation Player, version 14.0 for your OS
 
-Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/14_0"><u>Vmwarew Workstation Player 14.0</u></a></span>
+Link : <span><a href="https://customerconnect.vmware.com/en/downloads/info/slug/desktop_end_user_computing/vmware_workstation_player/14_0"><u>Vmware Workstation Player 14.0</u></a></span>
 
 ![Image5]
 ![Image6]
 
 * Please note that you should not install version 15.0>= yet.
 
-  There iscurrently an issue with version 15 and some versions of Windows (independent of AS ABAP). - customer guide
+  There is currently an issue with version 15 and some versions of Windows (independent of AS ABAP). - customer guide
 
 
-> Download OpenSuSE leap(linux OS) ver 15.2
+> Download openSUSE leap(linux OS) ver 15.2
 
 Link : <span><a href="https://get.opensuse.org/leap/15.2/"><u>openSUSE Leap 15.2</u></a></span>
 
@@ -80,25 +80,25 @@ It is a convenient utility program for copying the ABAP installation files from 
 ![Image11]
 #### 4. Set the Virtual machine name and Location with yourself and choose Next
 ![Image12]
-#### 4. **Set the Maximum disk size with 100 GB** and choose Next
+#### 5. **Set the Maximum disk size with 100 GB** and choose Next
 ![Image13]
-#### 5. With Customize Hardware, **Change the Processors to 4 Number of processor cores and Memory to 8GB** and create VM instand with finish
+#### 6. With Customize Hardware, **Change the Processors to 4 Number of processor cores and Memory to 8GB** and create VM instance with finish
 ![Image14]
-#### 6. With 'Play virtual machine' button, Start the VM instance that has been made just before
+#### 7. With 'Play virtual machine' button, Start the VM instance that has been made just before
 ![Image15]
 
-#### 7. With keyboard(not mouse), select Installation option and press 'Enter'
+#### 8. With keyboard(not mouse), select Installation option and press 'Enter'
 ![Image16]
 
-#### 8. After several Linux installation procedures, set the Language and Keyboard Layout. Set it to English and proceed through the Next button.
+#### 9. After several Linux installation procedures, set the Language and Keyboard Layout. Set it to English and proceed through the Next button.
 ![Image17]
 
-#### 9. If you need to check 'Network Activation', please proceed with Next.
-#### 10. Choose 'Desktop with GNOME' option and Next
+#### 10. If you need to check 'Network Activation', please proceed with Next.
+#### 11. Choose 'Desktop with GNOME' option and Next
 ![Image18]
 
-#### 11. At Disk Partitioning step, we need to change partitioning option with Expert Partioner.
-we can proceed with 'Start with Cur rent Proposal' Option.
+#### 12. At Disk Partitioning step, we need to change partitioning option with Expert Partioner.
+we can proceed with 'Start with Current Proposal' Option.
 
 ![Image19]
 
@@ -111,20 +111,20 @@ And then, Choose /dev/sda2 Device and click 'Modify' -> 'Edit Partition'
 
 After that, Change Filesystem format to Ext4 and Click next buttton, and Choose Accept.
 
-#### 12. Seledct your Region and Timze zone and Next
+#### 13. Select your Region and Time zone and Next
 ![image22]
 
-#### 13.  Enter : User's Full Name, Password
+#### 14.  Enter : User's Full Name, Password
 In this section, I've set the User name with 'ABAP', and password as well.
 ![image23]
 
-#### 14. **Important : You need to make the following settings. Scroll down to find Firewall and SSH**:
+#### 15. **Important : You need to make the following settings. Scroll down to find Firewall and SSH**:
 1) Enable Firewall
 2) Disable SSH service:
 
 ![image24]
 
-#### 15. Click on Install and Confirm again to Install the Operating System.
+#### 16. Click on Install and Confirm again to Install the Operating System.
 > The Linux operating system will install in few minutes.
 
 
@@ -156,14 +156,14 @@ If you counter Y/N choice, put the 'Y' and press Enter button.
 
 ```
 sudo zypper install uuidd
-sudo zypper install tsch
+sudo zypper install tcsh
 sudo zypper install unrar
 ```
 
 
 > uuidd daemon: This daemon provides universal unique identifiers – essential for creating database keys. (See SAP Note <a href="https://launchpad.support.sap.com/#/notes/1310037">1310037</a> for more details.)
 
-> tsch : program for executing install.sh afterward
+> tcsh : program for executing install.sh afterward
 
 > unrar : program for unzip rar files(the files format we have downloaded from SAP page)
 
@@ -191,7 +191,7 @@ by entering sudo vi /etc/hostname , we can change hostname to '**vhcalnplci**'
 sudo vi /etc/hostname
 ```
 
-After chaning it, we can check the hostname and restart network by entering sudo rcnetwork restart
+After changing it, we can check the hostname and restart network by entering sudo rcnetwork restart
 ```
 sudo rcnetwork restart
 ```
@@ -210,6 +210,8 @@ Open the host files by entering sudo vi /etc/hosts
 Using this IP address, add a new entry of the form
 
 ```
+sudo vi /etc/hosts
+
 <IP address> <hostname> <hostname>.dummy.nodomain
 <IP address> vhcalnplci vhcalnplci.dummy.nodomain
 ```
@@ -217,10 +219,14 @@ Using this IP address, add a new entry of the form
 
 Check the changes by using the command sudo cat /etc/hosts
 
+```
+cat /etc/hosts
+```
+
 #### 9. Copy the ABAP files using WinSCP
 
 Using IP Address above, we can access SFTP via WinSCP program.
-I've made a new directory 'ABAP' and copy all extracted data to that directory(withoud client directory)
+I've made a new directory 'ABAP' and copy all extracted data to that directory(without client directory)
 
 > All extracted files will be copied to VM in few minutes.
 
@@ -239,7 +245,7 @@ If there is SYBASE_ASE_TD.lic file already, overwrite it.
 Change the access rights of the install scipt :
 ```
 sudo -i
-chmod +x instal.sh
+chmod +x install.sh
 ```
 ![image35]
 
@@ -307,9 +313,9 @@ In the extracted archive, navigate to …PRES\GUI\Windows\Win32\SetupAll.exe and
 
 ## ABAP License Key
 1. Start the SAP System and create a SAP GUI connection as above.
-2. Log on to the system with the client 000 and user SAP* with default password Down1oad
+2. Log on to the system with the client 000 and user **SAP*** with default password **Down1oad**
 . In transaction SLICENSE , note down or copy your Active Hardware Key.
-3. Request the license key for your trial version at <a href="https://go.support.sap.com/minisap/#/minisap"><u>SAP Sneak Preview License Key Request.</u></a>
+3. Request the license key for your trial version at <a href="https://go.support.sap.com/minisap/#/minisap"><u>SAP License Keys for Preview, Evaluation and Developer Versions</u></a>
 
 NOTE: Do not use the link in the transaction SLICENSE in the panel Request License Key.
 
@@ -319,7 +325,7 @@ a) Select NPL – SAP NetWeaver 7.x (Sybase ASE) as System ID.
 
 b) Enter your personal data and agree to the License Agreement.
 
-c) Choose Generate bottom right corner of screen.)
+c) Choose Generate bottom right corner of screen.
 
 d) The web site automatically generates a .txt file for this system/key. Download and save this file, eg on the desktop for convenience.
 
