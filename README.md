@@ -291,7 +291,7 @@ stopsap
 ## Install SAP GUI For Windows
 You can install SAP GUI For Windows at the <install_folder>\client\SAPGUI4Windows\50144807_6.ZIP
 
-In the extracted archive, navigate to …PRES\GUI\Windows\Win32\SetupAll.exe and run it, following the instructions in the Wizard.
+In the extracted archive, navigate to …PRES1\GUI\Windows\Win32\SetupAll.exe and run it, following the instructions in the Wizard.
 
 ![image37]
 

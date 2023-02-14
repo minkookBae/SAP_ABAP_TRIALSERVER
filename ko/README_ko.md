@@ -191,7 +191,7 @@ rpm -qa | grep libaio
 
 ![image29]
 
-#### 7. Edit the hostname and hosts files
+
 #### 7. hostname과 hosts 파일을 수정
 
 sudo vi /etc/hostname을 입력해서 vim 내에서 hostname을 '**vhcalnplci**'로 변경할 수 있습니다.
@@ -200,7 +200,7 @@ sudo vi /etc/hostname을 입력해서 vim 내에서 hostname을 '**vhcalnplci**'
 sudo vi /etc/hostname
 ```
 
-변경 후에, hostname 확인 가능하고, 'sudo rcnetwork restart' 명령어 통해 네트워크 재실행 하시면 됩니다.
+변경 후, hostname 확인 가능하고, 'sudo rcnetwork restart' 명령어 통해 네트워크 재실행 하시면 됩니다.
 
 ```
 sudo rcnetwork restart
@@ -246,9 +246,9 @@ cat /etc/hosts
 
 'License' 디렉터리를 확인해보시면 'SYBASE_ASE_TestDrive.lic' 파일이 존재하고,
 
-해당 파일을 **'/server/TAR/x86_64/SYBASE_ASE_TD.lic'** 디렉터리 및 파일명으로 복사해서 넣으시면 됩니다.
+해당 파일을 **'/server/TAR/x86_64/SYBASE_ASE_TD.lic'** 디렉터리 및 파일명으로 복사해 넣으시면 됩니다.
 
-SYBASE_ASE_TD.lic 파일이 이미 있으면, 덮어쓰기 하세요.
+SYBASE_ASE_TD.lic 파일이 이미 있을테니, 덮어쓰기 하세요.
 ![image34]
 
 #### 10. 루트 권한 부여
@@ -307,15 +307,15 @@ stopsap
 <install_folder>\client\SAPGUI4Windows\50144807_6.ZIP
 에서 SAP GUI for windows 버전을 설치할 수 있습니다.
 
-…PRES\GUI\Windows\Win32\SetupAll.exe 에 있는 설치파일을 실행하고, 설치 마법사를 진행하시면 되겠습니다.
+…PRES1\GUI\Windows\Win32\SetupAll.exe 에 있는 설치파일을 실행하고, 설치 마법사를 진행하시면 되겠습니다.
 
 ![image37]
 
 ## SAP GUI에서 ABAP Server로 연결하기
 
-> SAP GUI에서 ABAP Server로 연결하기 위해서,
+> SAP GUI에서 ABAP Server로 연결하기 위해
 
-1. C:\Windows\System32\drivers\etc\hosts 디렉터리에서 windows hosts파일로 이동 후
+1. C:\Windows\System32\drivers\etc\hosts Windows 디렉터리에서 hosts파일 확인 후,
 
 2. 해당 파일을 관리자 권한으로 실행하신 뒤에 아래 처럼 line을 추가하세요.
 
@@ -338,9 +338,6 @@ stopsap
 ## ABAP 개발자 라이센스 키 다운받기
 1. SAP System 실행 후 기존 안내 대로 SAP GUI에서 connection을 생성
 
-2. Log on to the system with the client 000 and user **SAP*** with default password **Down1oad**
-. In transaction SLICENSE , note down or copy your Active Hardware Key.
-
 2. 클라이언트 000 및 사용자 **SAP***를 기본 암호 **Down1oad**로 입력하여 신규 시스템에 로그인합니다 이후, T-code : SLICENSE에서 활성 하드웨어 키를 저장하거나 복사합니다.
 
 3. <a href="https://go.support.sap.com/minisap/#/minisap"><u>SAP License Keys for Preview, Evaluation and Developer Versions</u></a>에서 trial version 시스템에 대하여 라이센스 키 신청할 수 있습니다.
@@ -358,10 +355,6 @@ c) 우측 하단의 Generate 버튼을 통해 진행
 d) 이후 요청한 system/key에 대하여 .txt 파일이 자동적으로 생성되고, 이를 다운로드 하시면 됩니다.
 
 4. T-code : SLICENSE를 실행하여 라이센스 키를 설치하기
-
-a) In the tab Digitally signed licenses, delete the existing license, then choose Install. This opens the text file you got and installs the new license key.
-
-The system type changes to Demo. You can now explore the demo scenarios and develop using the ABAP tools in Eclipse and new features like the core data services or SAPUI5 UIs.
 
 a) Digitally signed Licenses 탭에서 기존 라이센스를 삭제한 다음 Install을 선택합니다. 이후, 다운로드 받은 텍스트 파일을 열고 새 라이센스 키가 설치하세요.
 
