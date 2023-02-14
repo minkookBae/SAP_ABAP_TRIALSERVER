@@ -3,6 +3,8 @@
 
 <b>Reference : Customer Guide - Installing SAP AS ABAP 7.52 SP04 on VMWare [Developer Edition] Written by SAP</b>
 
+You can refer another Language Version : <a href="/ko/README_ko.md"><u>**한국어**</u></a>
+
 Link : <span><a href="https://assets.cdn.sap.com/sapcom/docs/2019/09/c86f9218-687d-0010-87a3-c30de2ffd8ff.pdf"><u>Customer Guide</u></a></span>
 
 ## Prerequisite (Hardware, OS criteria) - By Customer Guide and readme file
@@ -253,7 +255,7 @@ chmod +x install.sh
 ```
 ![image35]
 
-## INSTALL THE AS ABAP SEVER
+## INSTALL THE AS ABAP SERVER
 
 > Finally, we can run installation script by entering
 ```
