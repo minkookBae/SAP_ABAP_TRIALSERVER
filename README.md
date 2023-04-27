@@ -247,6 +247,18 @@ We need to copy to VM Instance directory **'/server/TAR/x86_64/SYBASE_ASE_TD.lic
 If there is SYBASE_ASE_TD.lic file already, overwrite it.
 ![image34]
 
+> Add : April 27, 2023.
+
+> In case of you are using previous license version which is valid until March, 2023,
+And such case of you have already installed NPL system, <u>you need to update to a recently distributed license</u>.
+
+<br>
+
+![image40]
+
+Guide : You can refer this <span><a href="https://pawelwiejkut.dev/posts/npl-wont-start/"><u><b>link page</b></u></a></span>
+
+
 #### 10. Assign root privileges
 Change the access rights of the install scipt :
 ```
@@ -384,3 +396,4 @@ The system type changes to Demo. You can now explore the demo scenarios and deve
 [image37]: /img/37_sapgui.png
 [image38]: /img/38_vmware_setup.png
 [image39]: /img/39_license.png
+[image40]: /img/40_new%20license.png

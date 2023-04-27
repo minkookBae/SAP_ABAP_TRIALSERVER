@@ -251,6 +251,18 @@ cat /etc/hosts
 SYBASE_ASE_TD.lic 파일이 이미 있을테니, 덮어쓰기 하세요.
 ![image34]
 
+> 내용추가 : 2023년 4월 27일.
+
+> 2023년 3월까지 사용가능한 이전 버전의 라이센스를 사용하여 NPL 시스템을 설치하신 뒤라면, <u>가장 최근 배포된 라이센스로 업데이트 해야 합니다.</u>
+
+<br>
+
+![image40]
+
+가이드 : <span><a href="https://pawelwiejkut.dev/posts/npl-wont-start/"><u><b>링크</b></u></a></span> 페이지를 참조하세요.
+
+
+
 #### 10. 루트 권한 부여
 아래 쉘 스크립트를 통해서 설치 스크립트 파일의 file 권한을 변경하세요
 ```
@@ -399,3 +411,4 @@ a) Digitally signed Licenses 탭에서 기존 라이센스를 삭제한 다음 I
 [image37]: /img/37_sapgui.png
 [image38]: /img/38_vmware_setup.png
 [image39]: /img/39_license.png
+[image40]: /img/40_new%20license.png
